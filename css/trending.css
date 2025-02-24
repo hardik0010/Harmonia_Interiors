@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url(navbar.css);
+@import url(footer.css);
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Cinzel', serif;
+}
+
+p {
+    font-size: 15px;
+    color: #7a7a7a;
+    line-height: 28px;
+}
+.page-banner {
+    background-image: url("../image/page-banner-bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0 90px 0;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .page-banner{
+        padding: 180px 0;
+    }
+}
+.page-banner h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Cinzel Decorative', serif;
+}
+.page-banner h2 em {
+    color: #73E2A7;
+    font-style: normal;
+}
+@media (min-width: 768px) {
+    .page-banner h2{
+        font-size: 50px;
+    }
+}
+.page-banner p {
+    color: #ffffff;
+}
+
+
+
+.trending-page {
+    margin-top: 0px;
+    padding-top: 60px;
+}
+@media (min-width:576px) {
+    .trending-page {
+        margin-top: 60px;
+        padding-top: 60px;
+    }   
+}
+.expanded {
+    max-width: 1320px;
+}
+@media (min-width:768px) {
+    .expanded {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+        padding: 0 7%;
+    }
+}
+.trending-page .positioning .grid-item .trending-item {
+    margin-bottom: 20px;
+}
+@media (min-width:1200px) {
+    .trending-page .positioning .grid-item .trending-item {
+        margin-bottom: 30px;
+    }
+}
+.grid-item .trending-item .thumb {
+    position: relative;
+    overflow: hidden;
+    border-radius: 7.5px;
+}
+.grid-item .trending-item .thumb .banner {
+    background-color: #1B512D;
+    color: #73E2A7;
+    text-transform: capitalize;
+    font-size: 14px;
+    padding: 10px 16px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-top-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    z-index: 2;
+}
+.grid-item .trending-item .thumb .hover-effect {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    bottom: -100%;
+    transition: all .5s;
+}
+.grid-item .trending-item .thumb .hover-effect .inner-content {
+    background-color: #1B512D;
+    border-bottom-left-radius: 7.5px;
+    border-bottom-right-radius: 7.5px;
+    padding: 20px 30px;
+}
+.trending-page a {
+    text-decoration: none;
+}
+.grid-item .trending-item .thumb .hover-effect .inner-content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #73E2A7;
+    margin: 0px;
+    margin-right: 20px;
+    text-transform: capitalize;
+
+}
+.grid-item .trending-item .thumb .hover-effect .inner-content a.icon {
+    color: #73E2A7;
+    position: absolute;
+    right: 30px;
+    bottom: 18px;
+}
+.grid-item .trending-item .thumb img {
+    border-radius: 7.5px;
+    transition: all 1s;
+    z-index: 1;
+    width: 100%;
+    overflow: hidden;
+}
+.grid-item .trending-item .thumb:hover img{
+    transform: scale(1.1);
+}
+.grid-item .trending-item .thumb:hover .hover-effect{
+    bottom: 0;
+} 
+
+
+
+
+.call-to-action {
+    margin-top: 120px;
+    padding: 45px 0px;
+    background-color: #1B512D;
+}
+.call-to-action h2 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 700;
+    color: #73E2A7;
+    margin: 0 0 20px 0;
+    text-align: center;
+    letter-spacing: .5px;
+    font-family: 'Cinzel Decorative', serif;
+}
+@media (min-width:992px) {
+    .call-to-action h2 {
+        font-size: 35px;
+        margin: 0;
+        text-align: left;
+    }
+}
+.call-to-action .white-button {
+    text-align: center;
+}
+@media (min-width:992px) {
+    .call-to-action .white-button {
+        text-align: right;
+    }   
+}
+.call-to-action .white-button a{
+    text-decoration: none;
+    padding: 11px 25px;
+    font-weight: 400;
+    border-radius: 7.5px;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: capitalize;
+    transition: all .5s;
+    border-color: #1B512D;
+    background-color: #DEF4C6;
+    color: #1B512D;
+}
+.call-to-action .white-button a:hover {
+    background-color: #73E2A7;
+    color: #1B512D;
+    border-color: #73E2A7;
+}
+
+
+
+footer {
+    margin-top: 60px;
+}

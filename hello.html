@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+    function fun() {
+        pat = /[^abc]/;
+        u = document.getElementById("t1").value;
+        if (pat.test(u)) {
+            alert("PERFECT");
+        }else{
+            alert("hwdu")
+        }
+    }
+</script>
+</head>
+
+<body>
+    <input type="text" id="t1" />
+    <input type="submit" onclick="fun()" />
+</body>
+
+</html>

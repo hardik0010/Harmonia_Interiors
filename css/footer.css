@@ -1,0 +1,105 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+footer {
+    margin-top: 80px;
+    text-transform: capitalize;
+    text-align: center;
+}
+footer .about-widget img {
+    max-width: 273px;
+    margin-bottom: 45px;
+}
+footer .about-widget p, footer .location-widget p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #7a7a7a;
+}
+footer h4 {
+    font-size: 17px;
+    font-weight: 700;
+    color: #2a2a2a;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+@media (min-width: 992px) {
+    footer h4 {
+        margin-top: 0;
+    }
+}
+footer ul.info li, footer ul.social-link li {
+    display: block;
+    margin-bottom: 20px;
+}
+footer ul.info li a, footer ul.social-link li a {
+    text-decoration: none;
+    color: #7a7a7a;
+    font-size: 15px;
+    transition: all .5s;
+}
+span.fa{
+    font-size: 20px;
+}
+footer ul.info li a:hover, footer ul.social-link li a:hover {
+    color: #1B512D;
+}
+footer ul.social-link li a span {
+    margin-right: 3px;
+    vertical-align: middle;
+}
+footer form.newsletter {
+    position: relative;
+    margin-bottom: 0;
+} 
+footer form.newsletter button {
+    border-color: #1B512D;
+    background-color: #73E2A7;
+    color: #1B512D;
+}
+footer form.newsletter button:hover {
+    background-color: #1B512D;
+    color: #73E2A7;
+    border-color: #73E2A7;
+    transition: all .5s;
+}
+footer form.newsletter input:focus {
+    box-shadow: none;
+    border-color: #1B512D;
+}
+footer .sub-footer {
+    margin-top: 60px;
+    padding-bottom: 20px;
+}
+footer .sub-footer p {
+    font-size: 15px;
+    line-height: 28px;
+    color: #7a7a7a;
+}
+footer .sub-footer p a {
+    color: #ff565b;
+    text-decoration: none;
+}
+footer .sub-footer a.scroll-to-top {
+    text-align: center;
+    color: #7a7a7a;
+    width: 100%;
+    font-size: 15px;
+    display: inline-block;
+    transition: all .5s;
+    text-decoration: none;
+}
+footer .sub-footer a.scroll-to-top:hover {
+    color: #1B512D;
+}
+@media (min-width: 992px){
+    footer {
+        text-align: left;
+        margin-top: 120px;
+    }
+    footer .sub-footer a.scroll-to-top {
+        text-align: right;
+    }
+}
